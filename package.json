@@ -1,7 +1,36 @@
 {
-  "name": "client",
+  "name": "formhuby",
+  "description": "Form builder application",
   "version": "0.1.0",
   "private": true,
+  "url": "https://formhuby-demo.vercel.app",
+  "website_name": "formhuby demo",
+  "author": {
+    "name": "Kain Nhantumbo",
+    "email": "nhantumbok@gmail.com",
+    "portfolio": "https://codenut-dev.vercel.app",
+    "github": "https://github.com/KainNhantumbo",
+    "linkedin": "https://www.linkedin.com/in/kain-nhantumbo?locale=en_US"
+  },
+  "metadata": {
+    "name": "Formhuby",
+    "copyright_notice": "© 2023 Formhuby | All Rights Reserved."
+  },
+  "keywords": [
+    "form builder",
+    "form builder application",
+    "form builder next.js application",
+    "formhuby"
+  ],
+  "license": {
+    "name": "Apache License Version 2.0",
+    "url": " http://www.apache.org/licenses"
+  },
+  "repository": "https://github.com/KainNhantumbo/form-builder-app",
+  "browserslist": [
+    "defaults",
+    "not IE 11"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,10 +38,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@dnd-kit/core": "^6.1.0",
+    "@dnd-kit/sortable": "^8.0.0",
+    "@reduxjs/toolkit": "^1.9.7",
     "clsx": "^2.0.0",
+    "framer-motion": "^10.16.4",
+    "nanoid": "^5.0.3",
     "next": "14.0.1",
+    "rc-dropdown": "^4.1.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-collapse": "^5.1.1",
+    "react-colorful": "^5.6.1",
+    "react-dom": "^18",
+    "react-icons": "^4.11.0",
+    "react-tooltip": "^5.22.0"
   },
   "devDependencies": {
     "@types/node": "^20",
