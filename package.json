@@ -43,7 +43,7 @@
     "@reduxjs/toolkit": "^1.9.7",
     "clsx": "^2.0.0",
     "framer-motion": "^10.16.4",
-    "nanoid": "^5.0.3",
+    "nanoid": "^5.1.5",
     "next": "14.2.30",
     "rc-dropdown": "^4.1.0",
     "react": "^18",
